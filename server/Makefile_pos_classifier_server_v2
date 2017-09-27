@@ -1,0 +1,2 @@
+all:
+	gcc -lmraa -lm -lpthread -lfann -o pos_classifier_server_v2 pos_classifier_server_v2.c LSM9DS0.c server_v3.c num2pos.c

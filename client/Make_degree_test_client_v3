@@ -1,0 +1,2 @@
+all:
+	gcc -lmraa -lm -lpthread -o degree_test_client_v3 degree_test_client_v3.c LSM9DS0.c client_v3.c
